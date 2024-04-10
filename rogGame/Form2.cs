@@ -25,6 +25,12 @@ namespace rogGame
         private void buttonStart_Click(object sender, EventArgs e)
         {
             this.Close();
+            var form4 = new Form4();
+            var locationX = this.Location.X;
+            var locationY = this.Location.Y;
+            form4.Show();
+            form4.Location = new Point(locationX + this.Width / 2 - form4.Width / 2, locationY + this.Height / 2 - form4.Height / 2 + 11);
+            form4.TopMost = true;
         }
 
         private void buttomExitPlay_Click(object sender, EventArgs e)

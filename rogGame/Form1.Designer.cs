@@ -57,9 +57,6 @@ namespace rogGame
             this.quickPanel.Name = "quickPanel";
             this.quickPanel.Size = new System.Drawing.Size(1280, 25);
             this.quickPanel.TabIndex = 0;
-            this.quickPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.quickPanel_MouseDown);
-            this.quickPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.quickPanel_MouseMove);
-            this.quickPanel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.quickPanel_MouseUp);
             // 
             // pictureBox1
             // 

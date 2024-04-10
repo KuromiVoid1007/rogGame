@@ -19,7 +19,6 @@ namespace rogGame
 
         public SoundPlayer sndPlayer;
 
-        bool drag = false;
 
 
         public Form1()
@@ -29,6 +28,7 @@ namespace rogGame
 
             sndPlayer = new SoundPlayer(Properties.Resources.rogGame);
             sndPlayer.PlayLooping();
+
         }
 
 
@@ -43,6 +43,7 @@ namespace rogGame
             form3.TopMost = true;
         }
 
+
         public void StartScreenMenu()
         {
             var form2 = new Form2(this);
@@ -50,27 +51,5 @@ namespace rogGame
             form2.TopMost = true;
         }
 
-
-
-        // настрйока панели
-        private void quickPanel_MouseDown(object sender, MouseEventArgs e)
-        {
-            drag = true;
-            start_point = new Point(e.X, e.Y);
-        }
-
-        private void quickPanel_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (drag)
-            {
-                Point p = PointToScreen(e.Location);
-                this.Location = new Point(p.X - start_point.X, p.Y - start_point.Y);
-            }
-        }
-
-        private void quickPanel_MouseUp(object sender, MouseEventArgs e)
-        {
-            drag = false;
-        }
     }
 }
