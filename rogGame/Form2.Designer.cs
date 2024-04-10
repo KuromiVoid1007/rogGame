@@ -56,6 +56,7 @@
             this.buttonMusic2.Size = new System.Drawing.Size(160, 28);
             this.buttonMusic2.TabIndex = 1;
             this.buttonMusic2.TabStop = false;
+            this.buttonMusic2.Click += new System.EventHandler(this.buttonMusic2_Click);
             // 
             // buttonStart
             // 

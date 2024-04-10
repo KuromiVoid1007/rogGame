@@ -20,7 +20,6 @@ namespace rogGame
         public SoundPlayer sndPlayer;
 
         bool drag = false;
-        public bool flagMusic;
 
 
         public Form1()
@@ -29,19 +28,18 @@ namespace rogGame
             StartScreenMenu();
 
             sndPlayer = new SoundPlayer(Properties.Resources.rogGame);
-            LoopMusic();
+            sndPlayer.PlayLooping();
         }
 
-        private void LoopMusic()
-        {
-            if (flagMusic == false)
-                sndPlayer.PlayLooping();
-        }
+
 
         private void buttonExit_Click(object sender, EventArgs e)
         {
             var form3 = new Form3();
+            var locationX = this.Location.X;
+            var locationY = this.Location.Y;
             form3.Show();
+            form3.Location = new Point(locationX + this.Width / 2 - form3.Width / 2, locationY + this.Height / 2 - form3.Height / 2);
             form3.TopMost = true;
         }
 
@@ -51,6 +49,8 @@ namespace rogGame
             form2.Show();
             form2.TopMost = true;
         }
+
+
 
         // настрйока панели
         private void quickPanel_MouseDown(object sender, MouseEventArgs e)

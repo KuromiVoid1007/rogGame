@@ -13,6 +13,7 @@ namespace rogGame
     public partial class Form2 : Form
     {
         public Form1 form1;
+        public bool flagMusic;
 
         public Form2(Form1 Form1)
         {
@@ -29,9 +30,24 @@ namespace rogGame
         private void buttomExitPlay_Click(object sender, EventArgs e)
         {
             var form3 = new Form3();
+            var locationX = form1.Location.X;
+            var locationY = form1.Location.Y;
             form3.Show();
             form3.TopMost = true;
         }
 
+        private void buttonMusic2_Click(object sender, EventArgs e)
+        {
+            if (!flagMusic)
+            {
+                form1.sndPlayer.Stop();
+                flagMusic = true;
+            }
+            else
+            {
+                form1.sndPlayer.PlayLooping();
+                flagMusic = false;
+            }
+        }
     }
 }
