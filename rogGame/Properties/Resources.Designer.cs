@@ -73,9 +73,89 @@ namespace rogGame.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap buttonExitPlay {
+            get {
+                object obj = ResourceManager.GetObject("buttonExitPlay", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonMusic {
+            get {
+                object obj = ResourceManager.GetObject("buttonMusic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonNot {
+            get {
+                object obj = ResourceManager.GetObject("buttonNot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap buttonShow {
             get {
                 object obj = ResourceManager.GetObject("buttonShow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonStart {
+            get {
+                object obj = ResourceManager.GetObject("buttonStart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonYes {
+            get {
+                object obj = ResourceManager.GetObject("buttonYes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FormClose {
+            get {
+                object obj = ResourceManager.GetObject("FormClose", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FormClose1 {
+            get {
+                object obj = ResourceManager.GetObject("FormClose1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FormClose2 {
+            get {
+                object obj = ResourceManager.GetObject("FormClose2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -97,6 +177,15 @@ namespace rogGame.Properties {
             get {
                 object obj = ResourceManager.GetObject("panel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream rogGame {
+            get {
+                return ResourceManager.GetStream("rogGame", resourceCulture);
             }
         }
     }

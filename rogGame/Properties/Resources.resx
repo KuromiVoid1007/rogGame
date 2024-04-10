@@ -121,13 +121,40 @@
   <data name="buttonExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\buttonExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="buttonExitPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonExitPlay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormClose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonNot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonNot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonYes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonYes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonMusic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormClose1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormClose1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="buttonShow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\buttonShow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonStart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonStart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormClose2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormClose2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rogGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rogGame.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

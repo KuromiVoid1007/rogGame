@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,24 +14,42 @@ namespace rogGame
     public partial class Form1 : Form
     {
         Form From2;
-        bool drag = false;
+        Form From3;
         Point start_point = new Point(0, 0);
+
+        public SoundPlayer sndPlayer;
+
+        bool drag = false;
+        public bool flagMusic;
+
 
         public Form1()
         {
             InitializeComponent();
-            Start();
+            StartScreenMenu();
+
+            sndPlayer = new SoundPlayer(Properties.Resources.rogGame);
+            LoopMusic();
+        }
+
+        private void LoopMusic()
+        {
+            if (flagMusic == false)
+                sndPlayer.PlayLooping();
         }
 
         private void buttonExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            var form3 = new Form3();
+            form3.Show();
+            form3.TopMost = true;
         }
 
-        public void Start()
+        public void StartScreenMenu()
         {
-            From2 = new Form2();
-            From2.Show();
+            var form2 = new Form2(this);
+            form2.Show();
+            form2.TopMost = true;
         }
 
         // настрйока панели
@@ -53,6 +72,5 @@ namespace rogGame
         {
             drag = false;
         }
-        
     }
 }
